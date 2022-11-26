@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <link rel="stylesheet" href="./css/styless.css">
@@ -8,54 +10,132 @@
      <meta name="descripcion" content="turismo en japon">
      <meta name ="author" content="schabrich matias">
      <meta name="copyright" content="turismo por japon">
+     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap-responsive.css">
      <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
      <link rel="icon" href="./img/icons8.png">
-
+     <link rel="stylesheet" href="/css/normalize.css">
+     <link rel="stylesheet" href="./css/main.css" >
+     <!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>agencia de viajes</title>
 </head>
 <body>
    <div>
-    <ul class="menu">
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./pages.html/contacto.html">Contacto</a></li>
-        <li><a href="./pages.html/nosotros.html">Nosotros</a></li>
-        <li><a href="./pages.html/servicios.html">Servicios</a></li>
-        <li><a href="./pages.html/faq.html">faq</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="./index.html">Viajando por Japon</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="./index.html">Inicio </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pages.html/contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pages.html/nosotros.html">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pages.html/servicios.html">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./pages.html/faq.html">faq</a>
+      </li>
     </ul>
+    
+  </div>
+</nav>
+
+
+
+   
    </div> 
    <div class="fondo">   
     <h1 class="titulo">somos una empresa dedicada al turismo en japon</h1>
     <h3>Nuestras principales excursiones son:</h3>
 
+<div class="slideshow-container">
 
-
-   <div class="fondos">
-
-    <div class="grid-container">
-  <div class="grid-item">
-<img class="fond" src ="./img/hoka1.jpg" alt="japon">
-<p class="text"> <b>Hokkaido</b> Hokkaidō, la más septentrional de las islas principales de Japón, es
-  famosa por sus volcanes, sus termas naturales (onsen) y las áreas de esquí. </p>
-</div>
-  <div class="grid-item">
-        <img class="fond" src="./img/okinawa.jpg" alt="okinawa">
-        <p class="text"> <b>okinawa</b>  kinawa es la segunda ciudad más grande de la 
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="./img/okinawa.jpg" alt="okinawa" style="width:100%">
+  <p class="text"> <b>okinawa</b>  kinawa es la segunda ciudad más grande de la 
           prefectura japonesa de Okinawa, después de Naha. Se ubica en la 
           parte central de la isla de Okinawa a 20 km al norte de la capital Naha</p>
-            </div>
-
-  <div class="grid-item">
-             <img class="fond" src="./img/tokyo.jfif" alt="okinawa">
-        <p class="text"> <b> tokyo</b> Tokio, la ajetreada capital de Japón, mezcla lo ultramoderno y lo tradicional, desde los rascacielos iluminados con neones hasta los templos históricos. El opulento santuario 
-          Shinto Meiji es conocido por su puerta altísima y los bosques circundantes</p>
-            </div>
-  
-</div>
-    </div>
  
 </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src ="./img/hoka1.jpg" alt="japon" style="width:100%">
+  <p class="text"> <b>Hokkaido</b> Hokkaidō, la más septentrional de las islas principales de Japón, es
+  famosa por sus volcanes, sus termas naturales (onsen) y las áreas de esquí. </p>
+</div>
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="./img/tokyo.jfif" alt="tokyo" style="width:100%">
+  <p class="text"> <b> tokyo</b> Tokio, la ajetreada capital de Japón, mezcla lo ultramoderno y lo tradicional, desde los rascacielos iluminados con neones hasta los templos históricos. El opulento santuario 
+          Shinto Meiji es conocido por su puerta altísima y los bosques circundantes</p>
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+  
+   
+</div>
         
+
+
         <footer class="footer2">
        <div class="container">
         <p>copy: todos los derechos reservados Bs As 2022</p>
