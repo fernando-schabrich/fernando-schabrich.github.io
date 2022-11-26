@@ -1,0 +1,32 @@
+body {
+  background-color: #328bdf;
+}
+
+img {
+  width: 1000px;
+  height: 600px;
+}
+
+p {
+  background-color: black;
+  opacity: 0.9;
+}
+
+h5 {
+  background: black;
+  opacity: 0.7;
+}
+
+.faqq p {
+  color: red;
+}
+
+.texto h2 {
+  font-size: 34px;
+}
+
+.texto h3 {
+  font-size: 26px;
+}
+
+/*# sourceMappingURL=main.css.map */
